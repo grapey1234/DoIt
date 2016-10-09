@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "45A275B0A17C18F6F213B648DC9B0FF9D5975BE9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "43A04789C0BBC1FB3E376C4DBE3D4276DE154F96" : 9223372036854775807,
+    "45A275B0A17C18F6F213B648DC9B0FF9D5975BE9" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "75BFD321-1685-4C10-8FAF-2D14F3538784",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "43A04789C0BBC1FB3E376C4DBE3D4276DE154F96" : "..",
+    "45A275B0A17C18F6F213B648DC9B0FF9D5975BE9" : "Do%20it\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Do it",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Do it.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/grapey1234\/swiftappcourse1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "43A04789C0BBC1FB3E376C4DBE3D4276DE154F96"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/grapey1234\/DoIt.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "45A275B0A17C18F6F213B648DC9B0FF9D5975BE9"
+    }
+  ]
+}
