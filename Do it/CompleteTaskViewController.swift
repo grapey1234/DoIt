@@ -12,18 +12,17 @@ class CompleteTaskViewController: UIViewController {
 
     @IBOutlet weak var takkLabel: UILabel!
     
-    var task = Task()
+    var task : Task? = nil
     
-    var previousVC = TasksViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if task.important {
-            takkLabel.text = "❗️\(task.name)"
+        if task!.important {
+            takkLabel.text = "❗️\(task!.name!)"
         } else {
             
-            takkLabel.text = task.name
+            takkLabel.text = task!.name!
         }
 
 
@@ -32,16 +31,15 @@ class CompleteTaskViewController: UIViewController {
 
     @IBAction func completeTapped(_ sender: AnyObject) {
     
-    previousVC.tasks.remove(at: previousVC.selectedIndex)
-        previousVC.tableView.reloadData()
+    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        context.delete(task!)
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        
+        
         navigationController!.popViewController(animated: true)
 
     }
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
 
  
 }

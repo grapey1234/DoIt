@@ -13,7 +13,6 @@
 		8E3AF5EA1DA794370049B05B /* Do_it.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E3AF5E81DA794370049B05B /* Do_it.xcdatamodeld */; };
 		8E3AF5EC1DA794370049B05B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3AF5EB1DA794370049B05B /* Assets.xcassets */; };
 		8E3AF5EF1DA794370049B05B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3AF5ED1DA794370049B05B /* LaunchScreen.storyboard */; };
-		8E3AF5F71DA7F0A60049B05B /* task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3AF5F61DA7F0A60049B05B /* task.swift */; };
 		8EF606891DAA42BC00C0355D /* CompleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF606881DAA42BC00C0355D /* CompleteTaskViewController.swift */; };
 		8EFB91E81DA9090C00EE2C1C /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFB91E71DA9090C00EE2C1C /* CreateTaskViewController.swift */; };
 /* End PBXBuildFile section */
@@ -27,7 +26,6 @@
 		8E3AF5EB1DA794370049B05B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E3AF5EE1DA794370049B05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E3AF5F01DA794370049B05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E3AF5F61DA7F0A60049B05B /* task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = task.swift; sourceTree = "<group>"; };
 		8EF606881DAA42BC00C0355D /* CompleteTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTaskViewController.swift; sourceTree = "<group>"; };
 		8EFB91E71DA9090C00EE2C1C /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,7 +64,6 @@
 				8E3AF5E31DA794370049B05B /* TasksViewController.swift */,
 				8EF606881DAA42BC00C0355D /* CompleteTaskViewController.swift */,
 				8EFB91E71DA9090C00EE2C1C /* CreateTaskViewController.swift */,
-				8E3AF5F61DA7F0A60049B05B /* task.swift */,
 				8E3AF5E51DA794370049B05B /* Main.storyboard */,
 				8E3AF5EB1DA794370049B05B /* Assets.xcassets */,
 				8E3AF5ED1DA794370049B05B /* LaunchScreen.storyboard */,
@@ -148,7 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E3AF5F71DA7F0A60049B05B /* task.swift in Sources */,
 				8E3AF5EA1DA794370049B05B /* Do_it.xcdatamodeld in Sources */,
 				8EF606891DAA42BC00C0355D /* CompleteTaskViewController.swift in Sources */,
 				8E3AF5E41DA794370049B05B /* TasksViewController.swift in Sources */,
